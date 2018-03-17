@@ -12,11 +12,11 @@ namespace CharacterStats_Alternative
         {
             var name = Console.ReadLine();
             var health = int.Parse(Console.ReadLine());
-            var healthMax = int.Parse(Console.ReadLine());
+            var maxHealth = int.Parse(Console.ReadLine());
             var energy = int.Parse(Console.ReadLine());
-            var energyMax = int.Parse(Console.ReadLine());
-            var healthEmpty = healthMax - health;
-            var energyEmpty = energyMax - energy;
+            var maxEnergy = int.Parse(Console.ReadLine());
+            var healthEmpty = maxHealth - health;
+            var energyEmpty = maxEnergy - energy;
 
             Console.WriteLine("Name: {0}", name);
 
