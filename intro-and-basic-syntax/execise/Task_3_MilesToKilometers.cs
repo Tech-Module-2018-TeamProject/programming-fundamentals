@@ -10,9 +10,9 @@ namespace ConsoleApp1
             //read miles from console
             double miles = int.Parse(Console.ReadLine());
             //convert miles to kilometers
-            double kilometres = (miles * 1.60934);
+            double kilometers = (miles * 1.60934);
             //print kilometers to console
-            Console.WriteLine($"{kilometres:F2}");
+            Console.WriteLine($"{kilometers:F2}");
         }
     }
 }
