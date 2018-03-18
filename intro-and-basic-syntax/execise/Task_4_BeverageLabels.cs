@@ -9,14 +9,22 @@ namespace ConsoleApp37
     {
         static void Main()
         {
-            string name = Console.ReadLine();
-            var volume = double.Parse(Console.ReadLine());
-            var energy = double.Parse(Console.ReadLine());
-            var shugar = double.Parse(Console.ReadLine());
 
+            //Reading name of the drink
+            string name = Console.ReadLine();
+            //Reading volume
+            var volume = double.Parse(Console.ReadLine());
+            //Reading energy
+            var energy = double.Parse(Console.ReadLine());
+            //Reading sugar
+            var sugar = double.Parse(Console.ReadLine());
+
+            //Calculating zahar
             double zahar = volume / 100;
 
+            //Writing the volume and name of the drink
             Console.WriteLine($"{volume}ml {name}:");
+            //Calculating and writing kcal and grams of sugars
             Console.WriteLine($"{(energy * zahar)}kcal, {(shugar * zahar)}g sugars");
 
         }
