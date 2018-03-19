@@ -1,7 +1,7 @@
 # programming-fundamentals
 ## *Programming Fundamentals Repository*
 
-##### *link to exercises*
+*link to exercises: https://softuni.bg/trainings/resources/officedocument/20482/exercise-problem-descriptions-programming-fundamentals-january-2018*
 
 ---
 ### Problem 1 : Description
