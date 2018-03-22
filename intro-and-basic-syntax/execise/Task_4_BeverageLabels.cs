@@ -25,7 +25,7 @@ namespace ConsoleApp37
             //Writing the volume and name of the drink
             Console.WriteLine($"{volume}ml {name}:");
             //Calculating and writing kcal and grams of sugars
-            Console.WriteLine($"{(energy * zahar)}kcal, {(shugar * zahar)}g sugars");
+            Console.WriteLine($"{(energy * zahar)}kcal, {(sugar * zahar)}g sugars");
 
         }
     }
