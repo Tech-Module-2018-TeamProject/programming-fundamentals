@@ -1,3 +1,4 @@
+// confirmed by Yonkov
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace CharacterStats_Alternative
     {
         static void Main(string[] args)
         {
-            var name = Console.ReadLine();
+            var drinkName = Console.ReadLine();
             var health = int.Parse(Console.ReadLine());
             var maxHealth = int.Parse(Console.ReadLine());
             var energy = int.Parse(Console.ReadLine());
@@ -18,12 +19,12 @@ namespace CharacterStats_Alternative
             var healthEmpty = maxHealth - health;
             var energyEmpty = maxEnergy - energy;
 
-            Console.WriteLine("Name: {0}", name);
+            Console.WriteLine("Name: {0}", drinkName);
 
             Console.Write("Health: " + "|");
             Console.Write("{0}{1}", new string('|', health), new string('.', healthEmpty));
             Console.WriteLine("|");
-   
+
             Console.Write("Energy: " + "|");
             Console.Write("{0}{1}", new string('|', energy), new string('.', energyEmpty));
             Console.WriteLine("|");
